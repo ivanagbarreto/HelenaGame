@@ -26,7 +26,9 @@ function getRandomTile () {
 }
 
 function setMole(){
-    
+    if(gameOver){
+        return;
+    }
 
     if(currMoleTile){
         currMoleTile.innerHTML = "";
@@ -47,6 +49,11 @@ function setMole(){
 
 
 function setPlant () {
+    if(gameOver){
+        return;
+    }
+
+
     if(currPlantTile){
         currPlantTile.innerHTML="";
     }
@@ -65,6 +72,10 @@ currPlantTile.appendChild(plant);
 
 
 function selectTile() {
+    if(gameOver){
+        return;
+    }
+
 
     if(this == currMoleTile){
         score += 10;

@@ -34,7 +34,7 @@ function setMole(){
 
 
     let mole = document.createElement("img")
-    mole.src= "./images/monty-mole.png"
+    mole.src= "./images/atun.png"
 
 
     let num = getRandomTile ();
@@ -52,7 +52,7 @@ function setPlant () {
     }
 
 let plant = document.createElement("img");
-plant.src = "./images/piranha-plant.png";
+plant.src = "./images/pigeonicon.png";
 
 let num = getRandomTile();
 if(currMoleTile&&currMoleTile.id == num){

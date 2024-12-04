@@ -14,7 +14,7 @@ body{
     margin: 0 auto;
     display: flex;
     flex-wrap: wrap;
-    background: url(/images/bggrass.jpg);
+    background: url(/images/skybg.jpg);
     background-size: cover;
     border: 3px solid white;
     border-radius: 25px;
@@ -23,7 +23,7 @@ body{
 #board div{
     width: 180px;
     height: 180px;
-    background-image: url(/images/pipe.png);
+    background-image: url(/images/boxkawaii.png);
     background-size: cover;
 }
 
